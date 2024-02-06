@@ -17,8 +17,6 @@
     --font-inter: 'Inter', sans-serif;
     --font-size: 14px;
 
-    /* -------- Attribution -------- */
-    --color-attribution: hsl(228, 45%, 44%);
 }
 
 /* ------ Principal ------ */
@@ -100,6 +98,13 @@ main {
     border-radius: 10px;
     color: var(--white);
     font-weight: var(--font-bold);
+}
+
+/* ------ Hover ------ */
+.btn button:hover{
+    background: var(--green);
+    cursor: pointer;
+    color: var(--dark-grey);
 }
 
 /* -------- Attribution -------- */

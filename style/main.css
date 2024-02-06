@@ -41,10 +41,65 @@ main {
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    height: 725px;
-    width: 300px;
+    height: 530px;
+    width: 280px;
+    padding: 25px;
+    background: var(--dark-grey);
+    border-radius: 10px;
+}
+
+/* ------ Card ------ */
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo{
+    background-image: url(../assets/images/avatar-jessica.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+.card h1{
+    font-size: 20px;
+    font-weight: var(--font-semiBold);
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+
+.card h2{
+    font-weight: var(--font-semiBold);
+    color: var(--green);
+    margin-top: 18px;
+}
+
+.card p{
+    margin-top: 30px;
+}
+
+/* ------ Btn ------ */
+.btn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    gap: 15px;
+}
+
+.btn button{
+    background: var(--grey);
+    height: 45px;
+    width: 280px;
+    border: none;
+    border-radius: 10px;
+    color: var(--white);
+    font-weight: var(--font-bold);
 }
 
 /* -------- Attribution -------- */

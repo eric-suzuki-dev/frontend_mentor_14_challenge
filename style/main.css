@@ -16,7 +16,6 @@
     --font-bold: 700;
     --font-inter: 'Inter', sans-serif;
     --font-size: 14px;
-
 }
 
 /* ------ Principal ------ */
@@ -124,7 +123,17 @@ main {
 }
 
 /* ------ Responsivo ------ */
-/* @media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 390px) {
 
+    /* ------ Principal ------ */
+    .container {
+        height: 530px;
+        width: 300px;
+        padding: 40px;
+    }
    
-} */
+    .btn button{
+        height: 47px;
+        width: 300px;
+    }
+}

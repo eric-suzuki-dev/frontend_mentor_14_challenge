@@ -102,6 +102,13 @@ main {
     font-weight: var(--font-bold);
 }
 
+/* ------ Hover ------ */
+.btn button:hover{
+    background: var(--green);
+    cursor: pointer;
+    color: var(--dark-grey);
+}
+
 /* -------- Attribution -------- */
 .attribution {
     position: fixed;
